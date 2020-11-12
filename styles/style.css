@@ -4,6 +4,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo{
+
+    height: 128px;
+    width: 176px;
+}
+
 .heading{
     background-color: #1d649a;
     padding-left: 20px;
@@ -59,16 +65,85 @@ body{
     bottom: 5px;
 }
 
+.pub-prof {
+    width: 32x;
+    height: 32px;
+    transform: scale(1.2);
+  }
 .zoom:hover {
     transform: scale(1.5);
-
   }
 
-.footer{
+.copyright{
     margin: 0px 0px 0px 0px;
     display: inline-block;
     position: absolute;
     bottom:5px;
     right: 5px;
     color: #fcff7a;
+}
+
+@media (max-width: 480px){
+    .logo{
+
+        height: 64px;
+        width: 88px;
+    }
+
+    .title{
+        display: inline-block;
+        position: absolute;
+        left: 100px;
+        top: 30px;
+        padding-left: 20px;
+    }
+    
+    .heading1{
+        margin: 0px;
+        display: inline-block;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subtitle{
+        font-style: italic;
+        color: #fcff7a;
+        margin: 0px;
+        font-size: 0.75em;
+    }
+
+    .facebook-link{
+        position: absolute;
+        left: 25px;
+        bottom: 10px;
+    }
+    
+    .google-map-link{
+        position: absolute;
+        left: 50px;
+        bottom: 10px;
+    }
+    
+    .gmail{
+        position: absolute;
+        left: 80px;
+        bottom: 10px;
+    }
+
+    .pub-prof {
+        width: 20px;
+        height: 20px;
+        transform: scale(1.2);
+      }
+
+      .copyright{
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
+        position: absolute;
+        bottom:5px;
+        right: 5px;
+        color: #fcff7a;
+        font-size: x-small;
+    }
 }
