@@ -83,7 +83,7 @@ body{
     color: #fcff7a;
 }
 
-@media (max-width: 480px){
+@media (max-width: 665px){
     .logo{
 
         height: 64px;
