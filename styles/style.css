@@ -71,6 +71,7 @@ html, body {
   position: absolute;
   right: 50px;
   top: 30px;
+  width: 280px;
   margin: 0;
 }
 /********* HEADER END **********/
@@ -133,13 +134,13 @@ html, body {
   display: inline-block;
   position: absolute;
   margin: 0;
-  right: 50%;
+  left: 30%;
 }
-  .copyright{
-    margin: 0;
-    display: inline-block;
-    position: absolute;
-    right: 5px;
+.copyright{
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  right: 5px;
 }
 
 /* tablet view */
@@ -161,22 +162,15 @@ html, body {
     top: 150px;
   }
 
-
-  .contact-address{
-    font-size: 100%;
-    right: 120px;
-    width: 400px;
-  }
-
   .col{
     width: 45%;
-}
+  }
 
 }
 
 
 /* tablet view */
-@media (max-width:760px){
+@media (max-width:768px){
 
   /************* HEADER START ************/
   .header{
@@ -187,16 +181,11 @@ html, body {
     background-color: #1d649a;
     right: auto;
     top: 130px;
-  
   }
   
   .contact-num{
     top: 115px;
   }
-
- .title{
-     font-size: 75%;
- }
  
  .logo{
      height: 96px;
@@ -208,40 +197,24 @@ html, body {
      margin: 30px auto; 
  }
 
- .col{
-     width: 45%;
- }
 
  #footer-content {
   padding-left: 0px;
 }
- 
- .contact-address{
+
+.contact-address{
   font-size: 100%;
-  right: 20px;
-  width: 400px;
 }
-.copyright{
-  display: none;
- }
 
 }
 /********** End Tablet view ***********/
-
-@media (max-width:580px){
-
-  .title{
-    font-size: 60%;
-  }
-
-}
 
 /*********** Mobile view ************/
 @media (max-width: 480px){
   /************* HEADER START ************/
 
   .header{
-    height: 110px;
+    height: 100px;
   }
 
   .cell{
@@ -253,6 +226,7 @@ html, body {
   
   .contact-num{
     top: 115px;
+    left: 12%;
     width: 400px;
   }
 
@@ -299,12 +273,6 @@ html, body {
     padding-left: 0px;
   }
    
-  .contact-address{
-    font-size: 70%;
-    right: 7px;
-    width: 250px;
-  }
-
   .zoom:hover {
     transform: scale(1.2);
   }
@@ -312,6 +280,14 @@ html, body {
 .pub-prof {
     width: 20x;
     height: 20px;
+  }
+
+  .contact-address{
+    font-size: 70%;
+  }
+
+  .copyright{
+    display: none;
   }
 }
 /*********** End Mobile view ************/
