@@ -133,11 +133,10 @@ html, body {
   display: inline-block;
   position: absolute;
   margin: 0;
-  right: 200px;
+  right: 50%;
 }
   .copyright{
     margin: 0;
-    padding-top: 20px;
     display: inline-block;
     position: absolute;
     right: 5px;
@@ -162,9 +161,16 @@ html, body {
     top: 150px;
   }
 
+
   .contact-address{
     font-size: 100%;
+    right: 120px;
+    width: 400px;
   }
+
+  .col{
+    width: 45%;
+}
 
 }
 
@@ -211,8 +217,8 @@ html, body {
 }
  
  .contact-address{
-  font-size: 80%;
-  left: 30%;
+  font-size: 100%;
+  right: 20px;
   width: 400px;
 }
 .copyright{
@@ -293,8 +299,10 @@ html, body {
     padding-left: 0px;
   }
    
-   .contact-address{
+  .contact-address{
     font-size: 70%;
+    right: 7px;
+    width: 250px;
   }
 
   .zoom:hover {
