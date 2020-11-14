@@ -143,6 +143,16 @@ html, body {
   right: 5px;
 }
 
+.credits{
+  font-size: 70%;
+  position: absolute;
+  right: 5px;
+}
+
+.credits>p{
+  margin: 0;
+  padding: 0;
+}
 /* tablet view */
 @media (max-width:1064px){
 
@@ -165,7 +175,9 @@ html, body {
   .col{
     width: 45%;
   }
-
+  .contact-address{
+    font-size: 100%;
+  }
 }
 
 
@@ -203,7 +215,14 @@ html, body {
 }
 
 .contact-address{
-  font-size: 100%;
+  font-size: 90%;
+}
+
+.copyright{
+  font-size: 90%;
+}
+.credits{
+  font-size: 50%;
 }
 
 }
@@ -259,7 +278,6 @@ html, body {
     top: 60px;
   
   }
-
   /************* HEADER END ************/
   .container{
       margin: 15px auto; 
@@ -287,6 +305,10 @@ html, body {
   }
 
   .copyright{
+    display: none;
+  }
+
+  .credits{
     display: none;
   }
 }
