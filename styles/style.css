@@ -108,7 +108,7 @@ html, body {
 }
 /************* BODY END ****************/
 
-/********** footer **************/
+/********** footer start **************/
   #footer {
     height: 50px; /* the footer's total height */
     color: #fcff7a;
@@ -153,6 +153,8 @@ html, body {
   margin: 0;
   padding: 0;
 }
+/********** footer end **************/
+
 /* tablet view */
 @media (max-width:1064px){
 
@@ -181,135 +183,5 @@ html, body {
 }
 
 
-/* tablet view */
-@media (max-width:768px){
-
-  /************* HEADER START ************/
-  .header{
-    height: 160px;
-  }
-
-  .cell{
-    background-color: #1d649a;
-    right: auto;
-    top: 130px;
-  }
-  
-  .contact-num{
-    top: 115px;
-  }
- 
- .logo{
-     height: 96px;
-     width: 132px;
- }
-
-  /************* HEADER END ************/
- .container{
-     margin: 30px auto; 
- }
 
 
- #footer-content {
-  padding-left: 0px;
-}
-
-.contact-address{
-  font-size: 90%;
-}
-
-.copyright{
-  font-size: 90%;
-}
-.credits{
-  font-size: 50%;
-}
-
-}
-/********** End Tablet view ***********/
-
-/*********** Mobile view ************/
-@media (max-width: 480px){
-  /************* HEADER START ************/
-
-  .header{
-    height: 100px;
-  }
-
-  .cell{
-    background-color: #1d649a;
-    right: auto;
-    top: 130px;
-  
-  }
-  
-  .contact-num{
-    top: 115px;
-    left: 12%;
-    width: 400px;
-  }
-
-  .logo{
-
-      height: 64px;
-      width: 88px;
-  }
-
-  .title{
-      font-size: 50%;
-  }
-
-  .cell{
-    position: absolute;
-    right: auto;
-    top: 80px;
-  
-  }
-  
-  .cellImg{
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-  }
-  
-  .contact-num{
-    position: absolute;
-    right: 90px;
-    top: 60px;
-  
-  }
-  /************* HEADER END ************/
-  .container{
-      margin: 15px auto; 
-  }
-
-  .col{
-      width: 100%;
-  }
-
-  #footer-content {
-    padding-left: 0px;
-  }
-   
-  .zoom:hover {
-    transform: scale(1.2);
-  }
-
-.pub-prof {
-    width: 20x;
-    height: 20px;
-  }
-
-  .contact-address{
-    font-size: 70%;
-  }
-
-  .copyright{
-    display: none;
-  }
-
-  .credits{
-    display: none;
-  }
-}
-/*********** End Mobile view ************/

@@ -1,0 +1,46 @@
+/* tablet view */
+@media (max-width:768px){
+
+    /************* HEADER START ************/
+    .header{
+      height: 160px;
+    }
+  
+    .cell{
+      background-color: #1d649a;
+      right: auto;
+      top: 130px;
+    }
+    
+    .contact-num{
+      top: 115px;
+    }
+   
+   .logo{
+       height: 96px;
+       width: 132px;
+   }
+  
+    /************* HEADER END ************/
+   .container{
+       margin: 30px auto; 
+   }
+  
+  
+   #footer-content {
+    padding-left: 0px;
+  }
+  
+  .contact-address{
+    font-size: 90%;
+  }
+  
+  .copyright{
+    font-size: 90%;
+  }
+  .credits{
+    font-size: 50%;
+  }
+  
+  }
+  /********** End Tablet view ***********/
