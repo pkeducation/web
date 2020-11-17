@@ -1,0 +1,52 @@
+/* tablet view */
+
+    .header{
+      height: 189px;
+    }
+  
+    .cell{
+      background-color: #1d649a;
+      right: auto;
+      top: 160px;
+    
+    }
+  
+    .contact-num{
+      left: 60px; 
+      top: 150px;
+    }
+  
+    .container{
+      margin: 15px auto; 
+      min-height: 800px;
+      max-width: 1024px;
+    }
+  
+    .circles{
+      height: 300px;
+      width: 42%;
+    }
+  
+    .col_all_subjects{
+      margin: 50px 0px 0px 40px;
+      }
+  
+   .col_hindi_commerce{
+    margin: 50px 0px 0px 390px;
+    }
+  
+    .col_accounts{
+      margin: 400px 0px 0px 40px;
+    }
+  
+    .col_cma{
+      margin: 400px 0px 0px 390px;
+    }
+  
+    .zoom:hover {
+      transform: scale(1);
+    }
+  
+    .contact-address{
+      font-size: 100%;
+    }
