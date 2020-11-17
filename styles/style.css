@@ -54,6 +54,10 @@ html, body {
     font-family: 'Sansita Swashed', cursive;
 }
 
+.which-subject{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .cell{
   position: absolute;
   right: 330px;
