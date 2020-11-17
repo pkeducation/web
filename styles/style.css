@@ -240,6 +240,7 @@ html, body {
   }
 
   .zoom:hover {
+    transform: scale(1);
   }
 
 
@@ -345,6 +346,7 @@ html, body {
   }
 
   .zoom:hover {
+    transform: scale(1);
   }
 
 
