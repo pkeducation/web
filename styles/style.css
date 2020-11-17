@@ -79,24 +79,74 @@ html, body {
 
 /************* BODY START ****************/
 .container{
-  min-height: 200px;
+  min-height: 1200px;
   max-width: 1024px;
-  margin: 50px auto;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
 }
+
+.col_all_subjects{
+  background-color:  white;
+  color:#1d649a;
+  margin: 50px 0px 0px 30px;
+  height: 230px;
+  width: 230px;
+  font-size: 120%;
+  text-align: center; 
+  border-radius: 70%;
+  position: absolute;
+}
+
+.col_hindi_commerce{
+  background-color:  white;
+  color:#1d649a;
+  margin: 50px 0px 0px 500px;
+  height: 230px;
+  width: 230px;
+  font-size: 120%;
+  text-align: center; 
+  border-radius: 70%;
+  position: absolute;
+}
+
+.col_accounts{
+  background-color:  white;
+  color:#1d649a;
+  margin: 250px 0px 0px 250px;
+  height: 230px;
+  width: 230px;
+  font-size: 120%;
+  text-align: center; 
+  border-radius: 70%;
+  position: absolute;
+}
+
+.col_cma{
+  background-color:  white;
+  color:#1d649a;
+  margin: 250px 0px 0px 450px;
+  height: 230px;
+  width: 230px;
+  font-size: 120%;
+  text-align: center; 
+  border-radius: 70%;
+  position: absolute;
+  left: 265px;
+}
+
 
 
 .col{
   background-color:  white;
   color:#1d649a;
   margin: 40px 10px;
-  height: 150px;
-  width: 200px;
+  height: 230px;
+  width: 230px;
   font-size: 120%;
   text-align: center;
+  border-radius: 70%;
 }
+
 
 .cma{
   font-size: 150%;
@@ -290,10 +340,7 @@ html, body {
   #footer-content {
     padding-left: 0px;
   }
-   
-  .zoom:hover {
-    transform: scale(1.2);
-  }
+  
 
 .pub-prof {
     width: 20x;
