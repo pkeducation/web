@@ -1,0 +1,24 @@
+/* tablet view */
+
+    .header{
+      height: 189px;
+    }
+  
+    .cell{
+      background-color: #1d649a;
+      right: auto;
+      top: 160px;
+    
+    }
+  
+    .contact-num{
+      left: 60px; 
+      top: 150px;
+    }
+  
+    .col{
+      width: 45%;
+    }
+    .contact-address{
+      font-size: 100%;
+    }
