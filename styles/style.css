@@ -239,6 +239,9 @@ html, body {
     margin: 400px 0px 0px 390px;
   }
 
+  .zoom:hover {
+  }
+
 
  #footer-content {
   padding-left: 0px;
@@ -339,6 +342,9 @@ html, body {
 
   .col_cma{
     margin: 950px 0px 0px 70px;
+  }
+
+  .zoom:hover {
   }
 
 
