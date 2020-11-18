@@ -1,6 +1,9 @@
 /* tablet view */
 
   /************* HEADER START ************/
+  html,body {
+    height: 190%;
+  }
   .header{
     height: 160px;
   }
@@ -20,6 +23,15 @@
      width: 132px;
  }
 
+ .booksImg{
+  left: 300px;
+  top: 80px;
+  height: 88px;
+  width: 88px;
+  margin: 0;
+
+}
+
   /************* HEADER END ************/
  .container{
      margin: 30px auto; 
@@ -31,14 +43,19 @@
 }
 
 .contact-address{
-  font-size: 90%;
+  font-size: 100%;
+  width: 220px;
 }
 
 .copyright{
   font-size: 90%;
 }
 .credits{
-  font-size: 50%;
+  font-size: 70%;
+}
+
+.zoom:hover {
+  transform: scale(1);
 }
 
 /********** End Tablet view ***********/

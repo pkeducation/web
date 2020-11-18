@@ -1,5 +1,8 @@
 /* tablet view */
 
+html,body {
+  height: 135%;
+}
     .header{
       height: 189px;
     }
@@ -25,8 +28,17 @@
       font-size: 150%;
     }
     .contact-address{
-      font-size: 100%;
+      font-size: 110%;
     }
+
+    .booksImg{
+      left: 400px;
+      top: 90px;
+      height: 70px;
+      width: 70px;
+      margin: 0;
+    }
+    
 
     .high-school{
       position: static;
@@ -38,4 +50,14 @@
     }
     .professional-exam{
       position: static;
+    }
+
+    .zoom:hover {
+      transform: scale(1);
+    }
+  
+    .welcome-graphic{
+      position: relative;
+      bottom: 300px;
+      right: 100px;
     }
