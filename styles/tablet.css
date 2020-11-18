@@ -40,14 +40,15 @@
 }
 
 .contact-address{
-  font-size: 90%;
+  font-size: 100%;
+  width: 220px;
 }
 
 .copyright{
   font-size: 90%;
 }
 .credits{
-  font-size: 50%;
+  font-size: 70%;
 }
 
 .zoom:hover {

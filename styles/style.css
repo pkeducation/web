@@ -84,9 +84,10 @@ html, body {
 
 .contact-num{
   position: absolute;
-  right: 50px;
+  display: inline-block;
+  max-width: 200px;
+  right: 8%;
   top: 30px;
-  width: 280px;
   margin: 0;
 }
 /********* HEADER END **********/
@@ -168,6 +169,7 @@ html, body {
   #footer {
     height: 50px; /* the footer's total height */
     color: #fcff7a;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
   
   #footer-content {
@@ -175,6 +177,7 @@ html, body {
     height: 42px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
     margin: 0px;
     padding: 8px 8px 8px 50px;
+    position: relative;
   }
 
 .zoom:hover {
@@ -200,9 +203,11 @@ html, body {
 }
 
 .credits{
-  font-size: 70%;
+  font-size: 80%;
+  display: inline-block;
   position: absolute;
-  right: 5px;
+  right: 2px;
+  bottom: 1px;
 }
 
 .credits>p{
