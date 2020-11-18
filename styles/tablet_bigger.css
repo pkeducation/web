@@ -17,7 +17,12 @@
     }
   
     .col{
-      width: 45%;
+      width: 33%;
+      width: 250px;
+      height: 250px;
+      margin: 10px auto;
+      border-radius: 100%;
+      font-size: 150%;
     }
     .contact-address{
       font-size: 100%;
@@ -29,5 +34,16 @@
       height: 70px;
       width: 70px;
       margin: 0;
+    }
     
+    .high-school{
+      position: static;
+    }
+    
+    .college{
+      position: static;
+
+    }
+    .professional-exam{
+      position: static;
     }
