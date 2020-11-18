@@ -138,30 +138,33 @@ html, body {
   top: 230px;
 }
 
-.students_studying{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  left: 200px;
-  top: 100px;
-}
 
 .we_are_open{
   color: white;
-  position: relative;
-  left: 430px;
-  top: 60px;
+  display: inline-block;
+  position: absolute;
+  right: 150px;
+  top: 250px;
   font-size: 30px;
   line-height: 40px;
   font-family: 'Sansita Swashed', cursive;
 }
 
 .join_us_now_gif{
-  position: relative;
-  left: 430px;
+  position: absolute;
+  right: 150px;
+  top: 400px;
   height: 100px;
   width: 200px;
   bottom: 60px;
+}
+
+.students_studying{
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  height: 200px;
+  top: 500px;
 }
 
 /************* BODY END ****************/
