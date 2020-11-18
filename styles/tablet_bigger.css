@@ -58,8 +58,6 @@ html,body {
   
     .welcome-graphic{
       position: relative;
-      display: flex;
-      flex-wrap: wrap;
       bottom: 300px;
       right: 100px;
     }

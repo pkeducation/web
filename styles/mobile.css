@@ -1,7 +1,10 @@
 /*********** Mobile view ************/
 
     /************* HEADER START ************/
-  
+    html,body {
+      height: 160%;
+    }
+
     .header{
       height: 100px;
     }
@@ -91,5 +94,9 @@
   
     .credits{
       display: none;
+    }
+
+    .welcome-graphic{
+      left: 70px;
     }
   /*********** End Mobile view ************/
