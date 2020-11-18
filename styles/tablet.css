@@ -50,4 +50,8 @@
   font-size: 50%;
 }
 
+.zoom:hover {
+  transform: scale(1);
+}
+
 /********** End Tablet view ***********/

@@ -47,3 +47,7 @@
     .professional-exam{
       position: static;
     }
+
+    .zoom:hover {
+      transform: scale(1);
+    }
