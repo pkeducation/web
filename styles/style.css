@@ -83,11 +83,12 @@ html, body {
 
 
 .contact-num{
+  font-family: 'Open Sans Condensed', sans-serif;
   position: absolute;
   display: inline-block;
   max-width: 400px;
-  right: 4%;
-  top: 26px;
+  right: 160px;
+  top: 23px;
   margin: 0;
 }
 /********* HEADER END **********/
