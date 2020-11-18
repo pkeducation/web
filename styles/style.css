@@ -72,6 +72,14 @@ html, body {
   margin: 0;
 }
 
+.booksImg{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  left: 320px;
+  top: 15px;
+}
+
 .contact-num{
   position: absolute;
   right: 50px;

@@ -22,3 +22,12 @@
     .contact-address{
       font-size: 100%;
     }
+
+    .booksImg{
+      left: 400px;
+      top: 90px;
+      height: 70px;
+      width: 70px;
+      margin: 0;
+    
+    }

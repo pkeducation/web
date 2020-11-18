@@ -41,6 +41,15 @@
       height: 20px;
       display: inline-block;
     }
+
+    .booksImg{
+      left: 220px;
+      top: 50px;
+      height: 48px;
+      width: 48px;
+      margin: 0;
+    
+    }
     
     .contact-num{
       position: absolute;

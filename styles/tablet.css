@@ -20,6 +20,15 @@
      width: 132px;
  }
 
+ .booksImg{
+  left: 300px;
+  top: 80px;
+  height: 88px;
+  width: 88px;
+  margin: 0;
+
+}
+
   /************* HEADER END ************/
  .container{
      margin: 30px auto; 
