@@ -85,9 +85,9 @@ html, body {
 .contact-num{
   position: absolute;
   display: inline-block;
-  max-width: 200px;
-  right: 8%;
-  top: 30px;
+  max-width: 400px;
+  right: 4%;
+  top: 26px;
   margin: 0;
 }
 /********* HEADER END **********/
