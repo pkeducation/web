@@ -80,6 +80,8 @@ html, body {
   top: 30px;
 }
 
+
+
 .contact-num{
   position: absolute;
   right: 50px;
@@ -132,6 +134,32 @@ html, body {
   position: absolute;
   left:690px;
   top: 230px;
+}
+
+.students_studying{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  top: 100px;
+}
+
+.we_are_open{
+  color: white;
+  position: relative;
+  left: 430px;
+  top: 60px;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.join_us_now_gif{
+  position: relative;
+  left: 430px;
+  height: 100px;
+  width: 200px;
+  bottom: 60px;
 }
 
 /************* BODY END ****************/
