@@ -3,7 +3,7 @@
     /************* HEADER START ************/
 
     html,body {
-      height: 153%;
+      height: 160%;
     }
 
     .header{
@@ -98,8 +98,8 @@
     }
 
     .welcome-graphic{
-      left: 82px;
-      top: 150vh;
+      left: 140px;
+      top: 165vh;
    }
 
    .we_are_open{
