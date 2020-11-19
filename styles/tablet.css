@@ -1,6 +1,6 @@
 /* tablet view */
 html,body {
-  height: 150%;
+  height: 185%;
 }
   /************* HEADER START ************/
   .header{
@@ -59,7 +59,7 @@ html,body {
 
 .welcome-graphic{
   right: 35vw;
-  top: 90vh;
+  top: 145vh;
 }
 
 /********** End Tablet view ***********/
