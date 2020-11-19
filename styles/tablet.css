@@ -1,5 +1,7 @@
 /* tablet view */
-
+html,body {
+  height: 190%;
+}
   /************* HEADER START ************/
   .header{
     height: 160px;
@@ -53,6 +55,11 @@
 
 .zoom:hover {
   transform: scale(1);
+}
+
+.welcome-graphic{
+  right: 35vw;
+  top: 160vh;
 }
 
 /********** End Tablet view ***********/
