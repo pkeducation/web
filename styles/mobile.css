@@ -2,7 +2,7 @@
 
     /************* HEADER START ************/
     html,body {
-      height: 160%;
+      height: 150%;
     }
 
     .header{
@@ -84,7 +84,7 @@
     }
   
     .contact-address{
-      font-size: 100%;
+      font-size: 80%;
       width: 220px;
     }
   
