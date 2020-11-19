@@ -1,9 +1,6 @@
 /*********** Mobile view ************/
 
     /************* HEADER START ************/
-    html,body {
-      height: 150%;
-    }
 
     .header{
       height: 100px;
