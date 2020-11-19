@@ -2,6 +2,10 @@
 
     /************* HEADER START ************/
 
+    html,body {
+      height: 155%;
+    }
+
     .header{
       height: 100px;
     }
@@ -95,5 +99,11 @@
 
     .welcome-graphic{
       left: 70px;
-    }
+      top: 150vh;
+   }
+
+   .we_are_open{
+      font-size: 25px;
+      line-height: 30px;
+   }
   /*********** End Mobile view ************/

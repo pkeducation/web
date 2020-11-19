@@ -80,8 +80,6 @@ html, body {
   top: 30px;
 }
 
-
-
 .contact-num{
   font-family: 'Open Sans Condensed', sans-serif;
   position: absolute;
@@ -98,7 +96,7 @@ html, body {
 
 .container{
   min-height: 600px;
-  max-width: 1024px;
+  max-width: 1400px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 20px;
@@ -138,10 +136,14 @@ html, body {
   top: 230px;
 }
 
+.welcome-graphic{
+  position: absolute;
+  right: 10px;
+}
+
 .we_are_open{
   color: white;
   display: inline-block;
-  position: absolute;
   right: 150px;
   top: 250px;
   font-size: 30px;
@@ -150,7 +152,6 @@ html, body {
 }
 
 .join_us_now_gif{
-  position: absolute;
   right: 150px;
   top: 400px;
   height: 100px;
@@ -159,7 +160,6 @@ html, body {
 }
 
 .students_studying{
-  position: absolute;
   right: 150px;
   width: 200px;
   height: 200px;

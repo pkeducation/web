@@ -1,9 +1,6 @@
 /* tablet view */
 
   /************* HEADER START ************/
-  html,body {
-    height: 190%;
-  }
   .header{
     height: 160px;
   }
