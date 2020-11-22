@@ -18,3 +18,7 @@
   color: #fcff7a;
   font-family: 'Sansita Swashed', cursive;
 }
+
+.nav-item{
+  text-align: right;
+}
