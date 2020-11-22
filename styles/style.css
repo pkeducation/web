@@ -23,15 +23,21 @@
   text-align: right;
 }
 
+
 .classes-offered{
   color: #1d649a;
   font-size: 120%;
   margin: 40px 20px;
-  width: 60%;
+  max-width: 920px;
+}
+
+.bottom-row{
+  max-width: 60%;
+  margin-left: 230px;
 }
 
 .individual-courses{
-  margin-top: 20px;
+  margin: 20px 0px;
   text-align: center;
   background-color: white;
   border-radius: 50%;
