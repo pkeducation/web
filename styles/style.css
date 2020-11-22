@@ -42,6 +42,10 @@
   font-size: 1.5rem;
 }
 
+.zoom:hover{
+  transform: scale(1.5);
+}
+
 .course-group{
   margin-top: 20px;
   font-weight: 600;
