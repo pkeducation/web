@@ -54,6 +54,28 @@
   margin-top: 20px;
 }
 
+.welcome-graphic{
+  position: absolute;
+  right: 10px;
+}
+
+.we_are_open{
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.join_us_now_gif{
+  height: 100px;
+  width: 200px;
+}
+
+.students_studying{
+  width: 200px;
+  height: 200px;
+}
+
 footer {
   background-color: #1d649a;
   height: 60px;
@@ -74,6 +96,8 @@ footer {
   position: relative;
   bottom: 10px;
 }
+
+
 
   /* Small devices (landscape phones, 544px and up) */
   @media (max-width: 544px) {  
