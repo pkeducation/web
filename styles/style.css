@@ -28,22 +28,53 @@
   color: #1d649a;
   font-size: 120%;
   margin: 40px 20px;
-  max-width: 920px;
-}
-
-.bottom-row{
-  max-width: 50%;
-  margin-left: 230px;
+  max-width: 1024px;
 }
 
 .individual-courses{
   margin: 20px 0px;
   text-align: center;
   background-color: white;
-  border-radius: 50%;
   height: 230px;
   width: 230px;
+  border-radius: 50%;
   font-family: 'Josephin Sans', sans-serif;
   font-size: 1.5rem;
 }
 
+.course-group{
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.course-contents{
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #1d649a;
+  height: 40px;
+  bottom: 0;
+  width: 100%;
+  color: #fcff7a;
+}
+
+  /* Small devices (landscape phones, 544px and up) */
+  @media (max-width: 544px) {  
+    .header {font-size: 1rem;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .header {font-size: 30px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+  
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    
+  }
