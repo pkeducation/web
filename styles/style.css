@@ -80,6 +80,10 @@ footer {
 }
 
 
+.pub-prof{
+  width: 32px;
+  height: 32px;
+}
 .copyright{
   display: inline-block;
   margin-right: 5px;
@@ -90,13 +94,24 @@ footer {
   margin-bottom: 0;
   position: relative;
   bottom: 10px;
+  font-size: 90%;
 }
 
 
 
   /* Small devices (landscape phones, 544px and up) */
+
+
   @media (max-width: 544px) {  
     .header {font-size: 1rem;}
+    #footer{
+      font-size: 14px;
+    }
+
+    .pub-prof{
+      width: 24px;
+      height: 24px;
+    }
   }
 
   /* Medium devices (tablets, 768px and up) */
