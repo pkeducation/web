@@ -1,225 +1,134 @@
-html, body {
-    margin: 0px;
-    padding: 0px;
-    min-height: 100%;
-    height: 100%;
-  }
-  
-  #wrapper {
-    background-color:  #41C3BE;
-    min-height: 100%;
-    height: auto !important;
-    margin-bottom: -50px; /* the bottom margin is the negative value of the footer's total height */
-  }
-  
-  #wrapper:after {
-    content: "";
-    display: block;
-    height: 50px; /* the footer's total height */
-  }
-  
-  #content {
-    height: 100%;
-  }
-
-  /********* HEADER START **********/
-  .logo{
-    height: 128px;
-    width: 176px;
+.custom-color-button{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(252,255,122)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .header{
-    background-color: #1d649a;
-    padding-left: 20px;
-    padding-top: 10px;
-    color: #fcff7a;
-}
-
-.title{
-    display: inline-block;
-    position: relative;
-    bottom: 30px;
-}
-
-.heading1{
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
-    color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.subtitle{
-    margin: 0;
-    padding: 0;
-    font-family: 'Sansita Swashed', cursive;
-}
-
-.which-subject{
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.cell{
-  position: absolute;
-  right: 330px;
-  top: 40px;
-
-}
-
-.cellImg{
-  width: 32px;
-  height: 32px;
   display: inline-block;
-  margin: 0;
+  margin-top: 20px;
 }
 
-.booksImg{
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 350px;
-  top: 30px;
-}
-
-.contact-num{
+.heading{
+  color:#ffffff;
+  display: inline-block;
+  font-size: 2em;
   font-family: 'Open Sans Condensed', sans-serif;
-  position: absolute;
-  display: inline-block;
-  max-width: 400px;
-  right: 160px;
-  top: 23px;
-  margin: 0;
 }
-/********* HEADER END **********/
 
+.subheading{
+  color: #fcff7a;
+  font-family: 'Sansita Swashed', cursive;
+}
 
-/************* BODY START ****************/
-
-.container{
-  min-height: 600px;
-  max-width: 1400px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative;
+.nav-item{
+  text-align: right;
 }
 
 
-.col{
-  background-color:  white;
-  color:#1d649a;
-  margin: 40px 10px;
+.classes-offered{
+  color: #1d649a;
+  font-size: 120%;
+  margin: 40px 20px;
+}
+
+.individual-courses{
+  margin: 20px 0px;
+  text-align: center;
+  background-color: white;
   height: 230px;
   width: 230px;
-  font-size: 120%;
-  text-align: center;
   border-radius: 50%;
+  font-family: 'Josephin Sans', sans-serif;
+  font-size: 1.5rem;
 }
 
-
-.high-school{
-  position: absolute;
-  left: 460px;
+.zoom:hover{
+  transform: scale(1.5);
 }
 
-
-.college{
-  position: absolute;
-  left: 230px;
-  top: 230px;
-}
-.professional-exam{
-  position: absolute;
-  left:690px;
-  top: 230px;
+.course-group{
+  margin-top: 20px;
+  font-weight: 600;
 }
 
-.welcome-graphic{
-  position: absolute;
-  right: 10px;
+.course-contents{
+  margin-top: 20px;
 }
 
 .we_are_open{
   color: white;
-  display: inline-block;
-  right: 150px;
-  top: 250px;
   font-size: 30px;
   line-height: 40px;
   font-family: 'Sansita Swashed', cursive;
 }
 
 .join_us_now_gif{
-  right: 150px;
-  top: 400px;
   height: 100px;
   width: 200px;
-  bottom: 60px;
 }
 
 .students_studying{
-  right: 150px;
   width: 200px;
   height: 200px;
-  top: 500px;
 }
 
-/************* BODY END ****************/
+footer {
+  background-color: #1d649a;
+  height: 120px;
+  bottom: 0;
+  width: 100%;
+  color: #fcff7a;
+}
 
-/********** footer start **************/
-  #footer {
-    height: 50px; /* the footer's total height */
-    color: #fcff7a;
-    font-family: 'Open Sans Condensed', sans-serif;
-  }
-  
-  #footer-content {
-    background-color:#1d649a;
-    height: 42px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
-    margin: 0px;
-    padding: 8px 8px 8px 50px;
-    position: relative;
-  }
 
-.zoom:hover {
-    transform: scale(1.5);
-  }
-
-.pub-prof {
-    width: 32x;
-    height: 32px;
-  }
-
-.contact-address{
-  display: inline-block;
-  position: absolute;
-  margin: 0;
-  left: 30%;
+.pub-prof{
+  width: 32px;
+  height: 32px;
 }
 .copyright{
-  margin: 0;
   display: inline-block;
-  position: absolute;
-  right: 5px;
+  margin-right: 5px;
+  margin-bottom: 0;
 }
 
 .credits{
-  font-size: 80%;
-  display: inline-block;
-  position: absolute;
-  right: 2px;
-  bottom: 1px;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 10px;
+  font-size: 90%;
 }
 
-.credits>p{
-  margin: 0;
-  padding: 0;
-}
-/********** footer end **************/
 
 
+  /* Small devices (landscape phones, 544px and up) */
 
 
+  @media (max-width: 544px) {  
+    .header {font-size: 1rem;}
+    #footer{
+      font-size: 14px;
+    }
 
+    .pub-prof{
+      width: 24px;
+      height: 24px;
+    }
+
+    h5{
+      font-size: 1rem;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .header {font-size: 30px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+  
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    
+  }
