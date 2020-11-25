@@ -124,6 +124,14 @@ footer {
   }
 
   /* Medium devices (tablets, 768px and up) */
+  @media(min-width: 0px){
+    .header{font-size: 12px;}
+  }
+
+  @media(min-width: 320px){
+    .header{font-size: 12px;}
+  }
+  
   @media (min-width: 768px) {  
     .header {font-size: 30px;}
   }
