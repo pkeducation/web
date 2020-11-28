@@ -80,14 +80,24 @@ footer {
   color: #fcff7a;
 }
 
+/* testimonials */
+
 #testimonial{
   text-align: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 7% 7%;
+}
+
+.testimonial-title{
+  font-weight: 400;
+  margin-bottom: 12px;
 }
 
 .testimonial-image{
   border-radius: 100%;
+  margin-bottom: 20px;
 }
-
 
 .pub-prof{
   width: 32px;
