@@ -123,6 +123,17 @@ footer {
   /* Small devices (landscape phones, 544px and up) */
 
 
+  @media (max-width: 667px) {
+    .heading{
+      font-size: 2rem
+    }
+
+    .subheading{
+      font-size: 1.5rem;
+    }
+
+  }
+
   @media (max-width: 544px) {  
     #footer{
       font-size: 14px;
@@ -148,10 +159,6 @@ footer {
 
     .subheading{
       font-size: 1.4rem;
-    }
-
-    .zoom:hover{
-      transform: scale(1);
     }
 
     #contact-link{
