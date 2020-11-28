@@ -138,16 +138,16 @@ footer {
     }
 
     .pk-logo{
-      height: 80px;
-      width: 110px;
+      height: 70px;
+      width: 100px;
     }
 
     .heading{
-      font-size: 2rem
+      font-size: 1.5rem
     }
 
     .subheading{
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     .zoom:hover{
@@ -161,14 +161,7 @@ footer {
 
   /* Medium devices (tablets, 768px and up) */
   @media(max-width: 360px){
-
-    .heading{
-      font-size: 1.6rem
-    }
-
-    .subheading{
-      font-size: 1rem;
-  }
+  
 
   #contact-link{
     padding-top: 5px;
