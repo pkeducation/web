@@ -160,21 +160,11 @@ footer {
   }
 
   /* Medium devices (tablets, 768px and up) */
-  @media(max-width: 320px){
 
-    .heading{
-      font-size: 0.8rem
-    }
-
-    .subheading{
-      font-size: 0.8rem;
-  }
-}
-
-  @media(max-width: 340px){
+  @media(max-width: 440px){
   
     .heading{
-      font-size: 1rem
+      font-size: 1.5rem
     }
 
     .subheading{
@@ -183,6 +173,23 @@ footer {
   #contact-link{
     padding-top: 5px;
   }
+}
+
+@media(max-width: 360px){
+  
+  .heading{
+    font-size: 1.2rem
+  }
+
+  .subheading{
+    font-size: 0.8rem;
+  }
+
+  .pk-logo{
+    height: 60px;
+    width: 85px;
+  }
+
 }
   
   @media (max-width: 768px) {     
