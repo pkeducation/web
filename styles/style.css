@@ -160,7 +160,7 @@ footer {
   }
 
   /* Medium devices (tablets, 768px and up) */
-  @media(max-width: 340px){
+  @media(max-width: 320px){
 
     .heading{
       font-size: 0.8rem
@@ -171,7 +171,7 @@ footer {
   }
 }
 
-  @media(max-width: 360px){
+  @media(max-width: 340px){
   
     .heading{
       font-size: 1rem
