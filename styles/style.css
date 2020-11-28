@@ -143,11 +143,11 @@ footer {
     }
 
     .heading{
-      font-size: 1.5rem
+      font-size: 2rem
     }
 
     .subheading{
-      font-size: 1rem;
+      font-size: 1.4rem;
     }
 
     .zoom:hover{
@@ -162,7 +162,13 @@ footer {
   /* Medium devices (tablets, 768px and up) */
   @media(max-width: 360px){
   
+    .heading{
+      font-size: 1.4rem
+    }
 
+    .subheading{
+      font-size: 1rem;
+  }
   #contact-link{
     padding-top: 5px;
   }
@@ -172,15 +178,14 @@ footer {
   @media(max-width: 320px){
 
     .heading{
-      font-size: 1.4rem
+      font-size: 1.2rem
     }
 
     .subheading{
       font-size: 0.8rem;
   }
   
-  @media (min-width: 768px) { 
-    
+  @media (max-width: 768px) {     
     
   }
 
