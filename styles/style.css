@@ -160,21 +160,6 @@ footer {
   }
 
   /* Medium devices (tablets, 768px and up) */
-  @media(max-width: 360px){
-  
-    .heading{
-      font-size: 1.3rem
-    }
-
-    .subheading{
-      font-size: 1rem;
-  }
-  #contact-link{
-    padding-top: 5px;
-  }
-}
-
-
   @media(max-width: 340px){
 
     .heading{
@@ -183,6 +168,20 @@ footer {
 
     .subheading{
       font-size: 0.8rem;
+  }
+}
+
+  @media(max-width: 360px){
+  
+    .heading{
+      font-size: 1rem
+    }
+
+    .subheading{
+      font-size: 1rem;
+  }
+  #contact-link{
+    padding-top: 5px;
   }
 }
   
