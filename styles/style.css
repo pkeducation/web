@@ -98,7 +98,9 @@ footer {
   font-size: 90%;
 }
 
-
+#contact-link{
+  padding-top: 20px;
+}
 
   /* Small devices (landscape phones, 544px and up) */
 
@@ -133,6 +135,10 @@ footer {
     .zoom:hover{
       transform: scale(1);
     }
+
+    #contact-link{
+      padding-top: 10px;
+    }
   }
 
   /* Medium devices (tablets, 768px and up) */
@@ -145,6 +151,11 @@ footer {
     .subheading{
       font-size: 1rem;
   }
+
+  #contact-link{
+    padding-top: 5px;
+  }
+}
 
 
   @media(max-width: 320px){
