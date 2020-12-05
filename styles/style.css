@@ -2,14 +2,20 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(252,255,122)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.header{
+.header,.heading{
   display: inline-block;
+}
+
+#top-section, #contact-link{
+  background-color: #1d649a;
+}
+
+.header{
   margin-top: 20px;
 }
 
 .heading{
-  color:#ffffff;
-  display: inline-block;
+  color:#fff;
   font-size: 3rem;
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -73,7 +79,6 @@
 }
 
 footer {
-  background-color: #1d649a;
   height: 180px;
   bottom: 0;
   width: 100%;
