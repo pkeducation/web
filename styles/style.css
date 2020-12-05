@@ -92,6 +92,13 @@
   background-color: #41c3be;
 }
 
+.card-title{
+  color: #fff;
+  font-family: 'Josephin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
 footer {
   height: 180px;
   bottom: 0;
