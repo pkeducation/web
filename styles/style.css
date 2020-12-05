@@ -77,6 +77,20 @@
   height: 200px;
 }
 
+#pricing{
+  background-color: #fff;
+}
+
+.pricing-cards{
+  margin: 0% 5%;
+  padding: 10% 5%;
+}
+
+.card{
+  margin: 0% 5%;
+  background-color: #41c3be;
+}
+
 footer {
   height: 180px;
   bottom: 0;
