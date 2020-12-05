@@ -40,7 +40,7 @@
 .individual-courses{
   margin: 20px 0px;
   text-align: center;
-  background-color: white;
+  background-color: #fff;
   height: 230px;
   width: 230px;
   border-radius: 50%;
@@ -62,7 +62,7 @@
 }
 
 .we_are_open{
-  color: white;
+  color: #fff;
   font-size: 30px;
   line-height: 40px;
   font-family: 'Sansita Swashed', cursive;
@@ -125,95 +125,93 @@ footer {
   padding-top: 20px;
 }
 
-  /* Small devices (landscape phones, 544px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+}
 
-
-  @media (max-width: 667px) {
-    .heading{
-      font-size: 2rem
-    }
-
-    .subheading{
-      font-size: 1.5rem;
-    }
-
-  }
-
-  @media (max-width: 544px) {  
-    #footer{
-      font-size: 14px;
-    }
-
-    .pub-prof{
-      width: 24px;
-      height: 24px;
-    }
-
-    h5{
-      font-size: 1rem;
-    }
-
-    .pk-logo{
-      height: 70px;
-      width: 100px;
-    }
-
-    .heading{
-      font-size: 2rem
-    }
-
-    .subheading{
-      font-size: 1.4rem;
-    }
-
-    #contact-link{
-      padding-top: 10px;
-    }
-  }
-
-  /* Medium devices (tablets, 768px and up) */
-
-  @media(max-width: 440px){
-  
-    .heading{
-      font-size: 1.5rem
-    }
-
-    .subheading{
-      font-size: 1rem;
-  }
-  #contact-link{
-    padding-top: 5px;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .zoom:hover{
+    transform: scale(1);
   }
 }
 
-@media(max-width: 360px){
-  
+@media (max-width: 768px) {     
+    
+}
+
+  /* Small devices (landscape phones, 544px and up) */
+@media (max-width: 667px) {
   .heading{
-    font-size: 1.2rem
+    font-size: 2rem
   }
 
   .subheading{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 544px) {  
+  #footer{
+    font-size: 14px;
+  }
+
+  .pub-prof{
+    width: 24px;
+    height: 24px;
+  }
+
+  h5{
+    font-size: 1rem;
   }
 
   .pk-logo{
-    height: 60px;
-    width: 85px;
+    height: 70px;
+    width: 100px;
   }
+
+  .heading{
+    font-size: 2rem
+  }
+
+  .subheading{
+    font-size: 1.4rem;
+  }
+
+  #contact-link{
+    padding-top: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media(max-width: 440px){
+
+  .heading{
+    font-size: 1.5rem
+  }
+
+  .subheading{
+    font-size: 1rem;
+}
+#contact-link{
+  padding-top: 5px;
+}
+}
+
+@media(max-width: 360px){
+
+.heading{
+  font-size: 1.2rem
+}
+
+.subheading{
+  font-size: 0.8rem;
+}
+
+.pk-logo{
+  height: 60px;
+  width: 85px;
+}
 
 }
-  
-  @media (max-width: 768px) {     
-    
-  }
-
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { 
-
-  }
-
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
-    
-  }
