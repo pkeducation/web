@@ -77,6 +77,38 @@
   height: 200px;
 }
 
+#pricing{
+  padding: 5% 0%;
+  background-color: #fff;
+}
+
+.pricing-cards{
+  margin: 0% 5%;
+  padding: 0% 5%;
+}
+
+.card{
+  margin: 3% 5%;
+  background-color: #41c3be;
+}
+
+.card-title{
+  color: #fff;
+  text-align: center;
+  font-family: 'Josephin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.card p{
+  font-family: 'Josephin Sans', sans-serif;
+  margin: 0 0;
+}
+
+.card .btn{
+  margin-top: 15px;
+}
+
 footer {
   height: 180px;
   bottom: 0;
@@ -103,11 +135,14 @@ footer {
   margin-bottom: 20px;
 }
 
-.pub-prof{
+.social-icons{
   width: 32px;
   height: 32px;
-  margin: 5px 5px;
 }
+.pub-prof{
+  margin: 0px 10px 0px;
+}
+
 .copyright{
   display: inline-block;
   margin-right: 5px;
@@ -156,10 +191,13 @@ footer {
     font-size: 14px;
   }
 
-  .pub-prof{
+  .social-icons{
     width: 24px;
     height: 24px;
-    margin: 5px 30px;
+  }
+
+  .pub-prof{
+    margin: 5px 30px 0px;
   }
 
   h5{
