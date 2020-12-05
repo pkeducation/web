@@ -30,7 +30,6 @@
   text-align: right;
 }
 
-
 .classes-offered{
   color: #1d649a;
   font-size: 120%;
@@ -107,6 +106,7 @@ footer {
 .pub-prof{
   width: 32px;
   height: 32px;
+  margin: 5px 5px;
 }
 .copyright{
   display: inline-block;
@@ -130,7 +130,7 @@ footer {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (max-width: 992px) { 
   .zoom:hover{
     transform: scale(1);
   }
@@ -159,6 +159,7 @@ footer {
   .pub-prof{
     width: 24px;
     height: 24px;
+    margin: 5px 30px;
   }
 
   h5{
