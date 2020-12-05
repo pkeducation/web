@@ -78,16 +78,17 @@
 }
 
 #pricing{
+  padding: 5% 0%;
   background-color: #fff;
 }
 
 .pricing-cards{
   margin: 0% 5%;
-  padding: 10% 5%;
+  padding: 0% 5%;
 }
 
 .card{
-  margin: 0% 5%;
+  margin: 3% 5%;
   background-color: #41c3be;
 }
 
