@@ -103,10 +103,21 @@
 .card p{
   font-family: 'Josephin Sans', sans-serif;
   margin: 0 0;
+  line-height: 2rem;
 }
+
 
 .card .btn{
   margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color:  #1d649a;
+  border-color:  #1d649a;
+}
+
+.card .btn:hover{
+  background-color:  #3c94d6;
+  border-color:  #3c94d6;
 }
 
 footer {
