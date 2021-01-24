@@ -78,9 +78,17 @@
 }
 
 #features{
-  padding: 5% 0%;
+  padding: 5% 2%;
   background-color: #fff;
+  text-align: center;
 }
+
+.feature-img{
+  width: 500px;
+  height: 80px;
+}
+
+
 
 #pricing{
   padding: 5% 0%;
