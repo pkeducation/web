@@ -77,6 +77,11 @@
   height: 200px;
 }
 
+#features{
+  padding: 5% 0%;
+  background-color: #fff;
+}
+
 #pricing{
   padding: 5% 0%;
   background-color: #fff;
