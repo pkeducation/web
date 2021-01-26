@@ -80,15 +80,50 @@
 #features{
   padding: 5% 2%;
   background-color: #fff;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .feature-img{
   width: 500px;
   height: 80px;
+  position: relative;
 }
 
+.to-left {
+  right: -80%;
+}
 
+/* .to-right {
+  left: -20px;
+} */
+
+/* .left {
+  float:left;
+  margin: 20px 20px 20px 0;
+}
+
+.right {
+  float:right;
+  margin: 20px 0 20px 20px;
+}
+
+.slide-left, .slide-right {
+  opacity: 0.4;
+  transition: all .5s;
+}
+
+ .slide-left {
+  transform: translate(-10%) scale(0.90);
+} 
+
+.slide-right {
+  transform: translate(10%) scale(0.90);
+}
+
+.active {
+  transform: translate(0%) scale(1);
+  opacity: 1;
+} */
 
 #pricing{
   padding: 5% 0%;
@@ -186,7 +221,7 @@ footer {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (max-width: 1200px) {  
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -194,6 +229,7 @@ footer {
   .zoom:hover{
     transform: scale(1);
   }
+
 }
 
 @media (max-width: 768px) {     
