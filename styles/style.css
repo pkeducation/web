@@ -100,6 +100,12 @@
   font-weight: bold;
 }
 
+.why-us-pic{
+  padding: 10px 10px 30px;
+  height: 100px;
+  width: 100px;
+}
+
 .feature-img{
   width: 500px;
   height: 80px;
