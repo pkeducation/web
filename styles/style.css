@@ -83,6 +83,14 @@
   /* text-align: center; */
 }
 
+#features2{
+  text-align: center;
+  display: none;
+  padding: 5% 2%;
+  background-color: #fff;
+  /* text-align: center; */
+}
+
 .feature-img{
   width: 500px;
   height: 80px;

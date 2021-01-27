@@ -1,4 +1,13 @@
-if ($(window).width() >= 1200) {
+
+function detectmob() {
+    if($(window).width() <= 1200 || $(window).height() <= 1000) {
+      return true;
+    } else {
+      return false;
+    }
+ }
+
+if (!detectmob()) {
  
   $(window).scroll(function() {
     if ($(this).scrollTop() > 275) {
@@ -15,5 +24,10 @@ if ($(window).width() >= 1200) {
             $('.to-right').stop().animate({ left: '-40%' });
         }
         });
+}
+else {
+    location.reload();
+    $("#features").css("display","none");
+    $("#features2").css("display","block");
 
 }
