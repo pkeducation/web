@@ -21,6 +21,7 @@ $(window).scroll(function() {
 
 
 
+
 $(".pricing-link").click(function() {
   $('html, body').animate({
       scrollTop: $("#pricing").offset().top
@@ -42,3 +43,20 @@ $(".contactUs-link").click(function() {
       scrollTop: $("#contactUs").offset().top
   }, 2000);
 });
+
+/* adding back to top button */
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+var mybutton = document.getElementById("toTopBtn");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function backToTopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
