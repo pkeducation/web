@@ -6,7 +6,7 @@
   display: inline-block;
 }
 
-#top-section, #contact-link{
+#top-section, #contactUs{
   background-color: #1d649a;
 }
 
@@ -195,7 +195,7 @@ footer {
   font-size: 90%;
 }
 
-#contact-link{
+#contactUs{
   padding-top: 20px;
 }
 
@@ -272,7 +272,7 @@ footer {
     font-size: 1.4rem;
   }
 
-  #contact-link{
+  #contactUs{
     padding-top: 10px;
   }
 }
@@ -288,7 +288,7 @@ footer {
   .subheading{
     font-size: 1rem;
 }
-#contact-link{
+#contactUs{
   padding-top: 5px;
 }
 }
