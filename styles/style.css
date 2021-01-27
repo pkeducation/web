@@ -215,7 +215,7 @@ footer {
   }
   
   #features2{
-    display: block;
+     display: block; 
   }
 
   #features2 .card-body{

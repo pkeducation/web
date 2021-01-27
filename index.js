@@ -7,8 +7,8 @@ function detectmob() {
     }
  }
 
-if (!detectmob()) {
- 
+if (!detectmob()) {}
+else{
   $(window).scroll(function() {
     if ($(this).scrollTop() > 275) {
         $('.to-left').stop().animate({ right: '-60%' }, 1000);
@@ -21,6 +21,9 @@ if (!detectmob()) {
         } 
         });
 }
+ 
+
+
 
 $(".pricing-link").click(function() {
   $('html, body').animate({
@@ -30,7 +33,7 @@ $(".pricing-link").click(function() {
 
 $(".whyUs-link").click(function() {
   $('html, body').animate({
-      scrollTop: $("#features2").offset().top
+      scrollTop: $("#features").offset().top
   }, 2000);
 });
 
