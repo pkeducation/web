@@ -17,7 +17,7 @@ else{
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 275) {
-            $('.to-right').stop().animate({ left: '5%' },1000);
+            $('.to-right').stop().animate({ left: '2%' },1000);
         } 
         });
 }
