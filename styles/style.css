@@ -101,12 +101,13 @@
 }
 
 .why-us-pic{
-  padding: 10px 10px 30px;
-  height: 100px;
+  padding: 0px 0px 0px;
+  height: 80px;
   width: 100px;
 }
 
 .attention{
+  padding: 10px 10px 10px 10px;
   display: inline;
   position: absolute;
   left: 630px;
