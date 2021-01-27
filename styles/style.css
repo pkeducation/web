@@ -90,7 +90,11 @@
 }
 
 .to-left {
-  right: -80%;
+  right: -120%;
+}
+
+.to-right {
+  left: -40%;
 }
 
 /* .to-right {
