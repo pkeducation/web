@@ -131,7 +131,7 @@
 .attention{
   padding: 0px 10px;
   position: absolute;
-  left: 45%;
+  left: 47.5%;
 }
 
 .feature-mob{
@@ -282,7 +282,7 @@ footer {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1300px) {
+@media (max-width: 1360px) {
 
   .why-us-pic{
     height: 64px;
