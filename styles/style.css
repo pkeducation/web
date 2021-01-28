@@ -6,7 +6,7 @@
   display: inline-block;
 }
 
-#top-section, #contact-link{
+#top-section, #contactUs{
   background-color: #1d649a;
 }
 
@@ -26,6 +26,27 @@
   font-size: 1.5rem;
 }
 
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color:  rgb(38, 111, 167);
+  color: #fcff7a;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#toTopBtn:hover {
+  background-color: #fcff7a;
+  color: #1d649a;
+}
+
 .nav-item{
   text-align: right;
 }
@@ -33,7 +54,7 @@
 .classes-offered{
   color: #1d649a;
   font-size: 120%;
-  margin: 40px 20px;
+  margin: 3% 2%;
 }
 
 .individual-courses{
@@ -65,6 +86,7 @@
   font-size: 30px;
   line-height: 40px;
   font-family: 'Sansita Swashed', cursive;
+  
 }
 
 .join_us_now_gif{
@@ -75,6 +97,93 @@
 .students_studying{
   width: 200px;
   height: 200px;
+}
+
+#features{
+  padding: 2% 2% 2% 4%;
+  background-color: #fff;
+  position: relative;
+}
+
+#features2{
+  text-align: center;
+  display: none;
+  padding: 5% 2%;
+  background-color: #fff;
+}
+
+.why-us{
+  text-align: center;
+  font-size: 50px;
+  line-height: 40px;
+  padding-bottom: 5px;
+  margin: 10px 0px;
+  font-family: 'Sansita Swashed', cursive;  
+  color: #1d649a;
+  font-weight: bold;
+}
+
+.why-us-pic{
+  height: 64px;
+  width: 80px;
+}
+
+.attention{
+  padding: 0px 10px;
+  position: absolute;
+  left: 47.5%;
+}
+
+.feature-mob{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.attention-mob{
+  height: 30px;
+}
+
+.feature-img{
+  width: 500px;
+  height: 80px;
+  position: relative;
+}
+
+.to-left {
+  right: -120%;
+}
+
+.to-right {
+  left: -40%;
+}
+
+.feature-carousel .carousel-control-prev-icon{
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231d649a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+
+}
+
+.feature-carousel .carousel-control-next-icon{
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231d649a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #1d649a;
+}
+
+#carouselTestimonials > ol > li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.carousel-indicators{
+  bottom: -30px;
 }
 
 #pricing{
@@ -168,12 +277,26 @@ footer {
   font-size: 90%;
 }
 
-#contact-link{
+#contactUs{
   padding-top: 20px;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (max-width: 1360px) {
+
+  .why-us-pic{
+    height: 64px;
+    width: 80px;
+  }
+
+  .attention{
+    left: 47.5%;
+  }
+
+  .feature-img{
+    width: 400px;
+    height: 64px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -181,6 +304,27 @@ footer {
   .zoom:hover{
     transform: scale(1);
   }
+
+  #features{
+    display: none;
+  }
+  
+  #features2{
+     display: block; 
+  }
+
+  #features2 .card-body{
+    color: #fff;
+    text-align: center;
+    font-family: 'Josephin Sans', sans-serif;
+  }
+
+  .why-us-pic{
+    padding-top: 10px;
+    height: 90px;
+    width: 110px;
+  }
+
 }
 
 @media (max-width: 768px) {     
@@ -229,7 +373,7 @@ footer {
     font-size: 1.4rem;
   }
 
-  #contact-link{
+  #contactUs{
     padding-top: 10px;
   }
 }
@@ -245,7 +389,7 @@ footer {
   .subheading{
     font-size: 1rem;
 }
-#contact-link{
+#contactUs{
   padding-top: 5px;
 }
 }

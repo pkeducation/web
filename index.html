@@ -14,6 +14,8 @@
     <title>P.K. Education Center</title>
   </head>
   <body style="background-color:#41c3be;">
+  <a name="top" id="top"></a> 
+  <button onclick="backToTopFunction()" id="toTopBtn" title="Go to top">Top</button>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -43,11 +45,15 @@
                 <li class="nav-item">
                     <a class="nav-link" style="color:#fcff7a;" href="about_us.html">About Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#fcff7a;" href="#pricing">Pricing</a>
+
+                <li class="nav-item whyUs-link">
+                  <a class="nav-link" style="color:#fcff7a;" href="#features">Why Us</a>
+              </li> 
+                <li class="nav-item pricing-link">
+                    <a class="nav-link pricing" style="color:#fcff7a;" href="#pricing">Pricing</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#fcff7a;" href="#contact-link">Contact</a>
+                <li class="nav-item contactUs-link">
+                    <a class="nav-link" style="color:#fcff7a;" href="#contactUs">Contact</a>
                 </li>
             </ul>
         </div>
@@ -103,8 +109,153 @@
         </div>   
     </div>
 
+    <section id="features">
+      <p class="why-us">Why choose us? <img class="why-us-pic" src="data/why_us.svg"></p>
+      <div class="row">
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/attention.svg">
+            <img class="to-left feature-img" src="data/arrow1.JPG" alt="">
+          </div>
+
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/assignment.svg">
+            <img class="to-right feature-img" src="data/arrow2.JPG" alt="">
+          </div>
+
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/pm.svg">
+            <img class="to-left feature-img" src="data/arrow3.JPG" alt="">
+          </div>
+
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/test.svg">
+            <img class="to-right feature-img" src="data/arrow4.JPG" alt="">
+          </div>
+
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/small_group.svg">
+            <img class="to-left feature-img" src="data/arrow5.JPG" alt="">
+          </div>
+
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/digital_classes.svg">
+            <img class="to-right feature-img" src="data/arrow6.JPG" alt="">
+          </div>
+
+          <div class="col-lg-12">
+            <img class="why-us-pic attention" src="data/mock.svg">
+            <img class="to-left feature-img" src="data/arrow7.JPG" alt="">
+          </div>
+      </div>
+      
+    </section>
+
+    <section id="features2">
+
+    <div id="carouselFeatures" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselFeatures" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselFeatures" data-slide-to="1"></li>
+        <li data-target="#carouselFeatures" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="feature-mob">Individual attention <br>
+                    <img class="why-us-pic attention-mob" src="data/attention.svg">
+                  </h5>
+                  
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="feature-mob">Regular Assignments<br>
+                    <img class="why-us-pic attention-mob" src="data/assignment.svg">
+                  <h5> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item" data-interval="10000">
+          
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="feature-mob">Digital classes <br>
+                    <img class="why-us-pic attention-mob" src="data/digital_classes.svg"><h5>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="feature-mob">Small batches <br>
+                    <img class="why-us-pic attention-mob" src="data/small_group.svg">
+                  </h5> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item" data-interval="10000">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="feature-mob">Mock exams <br>
+                  <img class="why-us-pic attention-mob" src="data/mock.svg">
+                </52>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="feature-mob">Weekly tests <br>
+                    <img class="why-us-pic attention-mob" src="data/test.svg">
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <a class="feature-carousel carousel-control-prev" href="#carouselFeatures" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class=" feature-carousel carousel-control-next" href="#carouselFeatures" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+      
+    </section>
+
     <section id="testimonial">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="false">
+        <div id="carouselTestimonials" class="carousel slide" data-ride="false">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselTestimonials" data-slide-to="1"></li>
+            <li data-target="#carouselTestimonials" data-slide-to="2"></li>
+          </ol>
             <div class="carousel-inner">
               <div class="carousel-item active" data-interval="10000">
                 <h1 class="testimonial-title">
@@ -139,15 +290,15 @@
                 </p>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
+        </div>
     </section>
 
     <section id="pricing">
@@ -243,7 +394,7 @@
         </div>
     </section>
 
-    <footer id="contact-link">
+    <footer id="contactUs">
         <section ></section>
         <div class="container-fluid row">
             <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center justify-content-md-start mt-3">
@@ -278,6 +429,7 @@
             </div> 
         </div>
     </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
   </body>
 </html>
