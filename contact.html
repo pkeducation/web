@@ -46,7 +46,7 @@
             </ul>
         </div>
     </nav>
-    <div class="container form-subsection">
+    <div class="container form-subsection student-details">
         <div class="row">
             <div class="col-xl-8 offset-xl-2 py-5">
                 <h3>Student's Details</h4>
@@ -155,6 +155,7 @@
                                 </div>
                             </div> -->
                         </div>
+
                         <div class="row">
 <!--                             <div class="col-md-12">
                                 <div class="form-group">
@@ -163,9 +164,6 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div> -->
-                            <div class="col-md-12">
-                                <input type="submit" class="btn btn-success btn-send" value="Submit">
-                            </div>
                         </div>
                     </div>
                 
@@ -176,6 +174,67 @@
         </div>
 
     </div>
+
+    <div class="container form-subsection parent's-details">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 py-5">
+                <h3>Parent's Contact Details (Mother/Father)</h4>
+                <form id="contact-form" method="post" action="contact.php" role="form" novalidate>
+                    <div class="messages"></div>
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="formFirstName">First Name </label>
+                                    <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
+                                    <div class="help-block with-errors valid-tooltip"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="formLastName">Last Name</label>
+                                    <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="formEmail">Email ID *</label>
+                                    <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="formMobileNum">Mobile Number</label>
+                                <div class="input-group mb-3 input-group-md">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">+91</span>
+                                      </div>
+                                    <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+        
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
 
     <footer id="footer">
         <section ></section>
