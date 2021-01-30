@@ -103,6 +103,7 @@ footer {
 }
 
 .btn{
+  width: 130px;
   margin-top: 15px;
   font-size: 1.2rem;
   font-weight: 600;
