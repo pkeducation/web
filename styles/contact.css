@@ -106,15 +106,15 @@ footer {
   font-size: 1.3rem;
 }
 
-.form-control{
+.form-control, .input-group-text{
   color: #1d649a;
   font-weight: bold;
+  opacity: 0.9;
 }
 
 /* control form input focus color (glow) */
 .form-control:focus {
   border-color: #fcff7a;
-  color: #1d649a;
   box-shadow: 0 0 0 0.2rem  #fcff7a;
 }
 
