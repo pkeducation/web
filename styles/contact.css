@@ -91,29 +91,6 @@ footer {
   padding-top: 20px;
 }
 
-/* control form input focus color (glow) */
-.form-control:focus {
-  border-color: #fcff7a;
-  box-shadow: 0 0 0 0.2rem  #fcff7a;
-}
-
-/* change form input place holder color (example input) */
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color:  #1d649a;
-  font-weight: bold;
-  opacity: 1; /* Firefox */
-}
-
-.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #1d649a;
-  font-weight:bold;
-}
-
-.form-control::-ms-input-placeholder { /* Microsoft Edge */
-  color: #1d649a;
-  font-weight: bold;
-}
-
 /* Add form related CSS */
 .form-subsection{
   font-size: 1.1rem;
@@ -127,6 +104,41 @@ footer {
 .form-subsection > * label{
   font-weight: bold;
   font-size: 1.3rem;
+}
+
+.form-control{
+  color: #1d649a;
+  font-weight: bold;
+}
+
+/* control form input focus color (glow) */
+.form-control:focus {
+  border-color: #fcff7a;
+  color: #1d649a;
+  box-shadow: 0 0 0 0.2rem  #fcff7a;
+}
+
+/* change form input place holder color (example input) */
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:  #1d649a;
+  font-weight: bold;
+  font-size: 0.9rem;
+  opacity: 0.75; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #1d649a;
+  font-weight: bold;
+  font-size: 0.9rem;
+  opacity: 0.75;
+
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #1d649a;
+  font-weight: bold;
+  font-size: 0.9rem;
+  opacity: 0.75;
 }
 
 .btn{
