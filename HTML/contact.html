@@ -55,7 +55,7 @@
         <div class="row">
             <div class="col-xl-8 offset-xl-2 py-5">
                 <h3>Student's Details</h4>
-                <form id="contact-form" method="post" action="../scripts/" role="form" validate>
+                <form id="contact-form" method="post" action="../scripts/contact.php" role="form" validate>
                         <div class="messages"></div>
                         <div class="controls">
                     
@@ -63,14 +63,14 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="formFirstName">First Name * </label>
-                                        <input id="formFirstName" type="text" name="studentName" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
+                                        <input id="formFirstName" type="text" name="studentName" class="form-control" placeholder="First Name" required="true" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="formLastName">Last Name * </label>
-                                        <input id="formLastName" type="text" name="studentSurname" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
+                                        <input id="formLastName" type="text" name="studentSurname" class="form-control" placeholder="Last Name" required="true" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label for="formEmail">Email ID *</label>
-                                        <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required="required" data-error="Valid email is required.">
+                                        <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required data-error="Valid email id is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">+91</span>
                                           </div>
-                                        <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
+                                        <input id="formMobileNum" type="tel" name="mobileNumber" class="form-control" placeholder="9012345678" required data="+91">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">033</span>
                                           </div>
-                                        <input id="formLandlineNum" type="mobileNumber" name="email" class="form-control" placeholder="" data="+91", >
+                                        <input id="formLandlineNum" type="tel" name="email" class="form-control" placeholder="" data="+91", >
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -154,15 +154,15 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="formFirstName">First Name </label>
-                                            <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
-                                            <div class="help-block with-errors valid-tooltip"></div>
+                                            <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name" required data-error="Parent's firstname is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
         
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="formLastName">Last Name</label>
-                                            <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
+                                            <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name" required data-error="Parent's last name is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -178,12 +178,12 @@
                                     </div>
         
                                     <div class="col-md-6">
-                                        <label for="formMobileNum">Mobile Number</label>
-                                        <div class="input-group mb-3 input-group-md">
+                                        <label for="formParentMobileNum">Mobile Number *</label>
+                                        <div class="form-group input-group mb-3 input-group-md">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text">+91</span>
-                                              </div>
-                                            <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
+                                                <input id="formParentMobileNum" type="tel" name="parentMobileNumber" class="form-control" placeholder="9012345678" required data-error="parent's mobile number is required." >
+                                            </div>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>

@@ -153,6 +153,10 @@ body{
   background-color:  #3c94d6;
   border-color:  #3c94d6;
 }
+.with-errors{
+  color: #fcff7a;;
+  font-size: 0.9rem;
+}
   
 
 /* Extra large devices (large desktops, 1200px and up) */
