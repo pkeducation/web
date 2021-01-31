@@ -55,192 +55,168 @@
         <div class="row">
             <div class="col-xl-8 offset-xl-2 py-5">
                 <h3>Student's Details</h4>
-                <form id="contact-form" method="post" action="../scripts/" role="form" novalidate>
+                <form id="contact-form" method="post" action="../scripts/" role="form">
 
-                    <div class="messages"></div>
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="formFirstName">First Name </label>
-                                    <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
-                                    <div class="help-block with-errors valid-tooltip"></div>
+                        <div class="messages"></div>
+                    
+                        <div class="controls">
+                    
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formFirstName">First Name * </label>
+                                        <input id="formFirstName" type="text" name="studentName" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
+                                        <div class="help-block with-errors valid-tooltip"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formLastName">Last Name * </label>
+                                        <input id="formLastName" type="text" name="studentSurname" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
+                                        <div class="help-block with-errors valid-tooltip"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_address1">Address Line 1 * </label>
+                                        <input id="formAddress1" type="text" name="addressLine1" class="form-control" placeholder="Apartment Name/Number, Floor,  locality name" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="formAddress2">Address Line 2 * </label>
+                                        <input id="form_address2" type="text" name="addressLine2" class="form-control" placeholder="Street Name" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="formCity">City </label>
+                                        <input id="formCity" type="text" name="city" class="form-control" placeholder="Kolkata" required="required" disabled>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="formState">State </label>
+                                        <input id="formState" type="text" name="state" class="form-control" placeholder="West Bengal" required="required" disabled>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="formPostalCode">Pin Code * </label>
+                                        <input id="formPostalCode" type="text" name="postalCode" class="form-control" placeholder="7xxxxx" required="" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="formLastName">Last Name</label>
-                                    <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
-                                    <div class="help-block with-errors"></div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="formEmail">Email ID *</label>
+                                        <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
+    
+                                <div class="col-md-4">
+                                    <label for="formMobileNum">Mobile Number</label>
+                                    <div class="input-group mb-3 input-group-md">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">+91</span>
+                                          </div>
+                                        <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-4">
+                                    <label for="formMobileNum">Landline Number</label>
+                                    <div class="input-group mb-3 input-group-md">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">033</span>
+                                          </div>
+                                        <input id="formLandlineNum" type="mobileNumber" name="email" class="form-control" placeholder="" required="false" data="+91">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                    
                             </div>
-
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_address1">Address Line 1 </label>
-                                    <input id="formAddress1" type="text" name="addressLine1" class="form-control" placeholder="Apartment Name/Number, Floor,  locality name" required="required" data-error="Lastname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="formAddress2">Address Line 2 </label>
-                                    <input id="form_address2" type="text" name="addressLine2" class="form-control" placeholder="Street Name" required="required" data-error="Lastname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="formCity">City </label>
-                                    <input id="formCity" type="text" name="city" class="form-control" placeholder="Kolkata" required="false" disabled>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="formState">State </label>
-                                    <input id="formState" type="text" name="state" class="form-control" placeholder="West Bengal" required="false" disabled>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="formPostalCode">Pin Code </label>
-                                    <input id="formPostalCode" type="text" name="postalCode" class="form-control" placeholder="7xxxxx" required="required" data-error="Lastname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="formEmail">Email ID *</label>
-                                    <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <label for="formMobileNum">Mobile Number</label>
-                                <div class="input-group mb-3 input-group-md">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">+91</span>
-                                      </div>
-                                    <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <label for="formMobileNum">Landline Number</label>
-                                <div class="input-group mb-3 input-group-md">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">033</span>
-                                      </div>
-                                    <input id="formLandlineNum" type="mobileNumber" name="email" class="form-control" placeholder="" required="false" data="+91">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <!-- <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_need">Please specify your need *</label>
-                                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                        <option value=""></option>
-                                        <option value="Request quotation">Request quotation</option>
-                                        <option value="Request order status">Request order status</option>
-                                        <option value="Request copy of an invoice">Request copy of an invoice</option>
-                                        <option value="Other">Other</option>
-                                    </select>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div> -->
-                        </div>
-
-                        <div class="row">
-<!--                             <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_message">Message *</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                
-                </form>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="container form-subsection parent's-details">
-        <div class="row">
-            <div class="col-xl-8 offset-xl-2 py-5">
-                <h3>Parent's Details (Mother/Father)</h4>
-                <form id="contact-form" method="post" action="contact.php" role="form" novalidate>
-                    <div class="messages"></div>
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="formFirstName">First Name </label>
-                                    <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
-                                    <div class="help-block with-errors valid-tooltip"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="formLastName">Last Name</label>
-                                    <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                           
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="formEmail">Email ID *</label>
-                                    <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <label for="formMobileNum">Mobile Number</label>
-                                <div class="input-group mb-3 input-group-md">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">+91</span>
-                                      </div>
-                                    <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- TODO: add link to next page below in anchor tag -->
-                                <a href="" class="btn btn-info btn-lg">Next</a>
-                                <a href="" class="btn btn-info btn-lg">Previous</a>
-                            </div>
-                        </div>
-                    </div>
+                        </br>
+                            <h3>Parent's Details (Mother/Father)</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="formFirstName">First Name </label>
+                                            <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name *" required="true" data-error="Firstname is required.">
+                                            <div class="help-block with-errors valid-tooltip"></div>
+                                        </div>
+                                    </div>
         
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="formLastName">Last Name</label>
+                                            <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name *" required="true" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="formEmail">Email ID *</label>
+                                            <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors">Please input valid email id</div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-6">
+                                        <label for="formMobileNum">Mobile Number</label>
+                                        <div class="input-group mb-3 input-group-md">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">+91</span>
+                                              </div>
+                                            <input id="formMobileNum" type="mobileNumber" name="mobileNumber" class="form-control" placeholder="9012345678" required="false" data="+91">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div> -->
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted">
+                                        <strong>*</strong> These fields are required. Contact form template by
+                                        <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                                </div>
+                            </div>
+                        </div> 
                 </form>
+               
             </div>
         </div>
     </div>
-
     
 
     <section id="footer">
