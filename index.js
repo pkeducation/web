@@ -14,6 +14,14 @@ app.use(express.static("public"));
   res.sendFile(__dirname + "/index.html");
 })
 
+app.get("/contact", function(req, res){
+  res.sendFile(__dirname + "/public/html/contact.html");
+});
+
+app.get("/about_us", function(req, res){
+  res.sendFile(__dirname + "/public/html/about_us.html");
+});
+
 app.listen(process.env.PORT ||3000, function(){
   console.log("pk education app started");
 });
