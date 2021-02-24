@@ -147,14 +147,16 @@ body{
   font-weight: 600;
   background-color:  #1d649a;
   border-color:  #1d649a;
+  z-index: 2;
 }
 
 .btn:hover{
-  background-color:  #3c94d6;
-  border-color:  #3c94d6;
+  background-color:   #185585;
+  border-color:  #185585;
+  color: #fcff7a;
 }
 .with-errors{
-  color: #fcff7a;;
+  color: #fcff7a;
   font-size: 0.9rem;
 }
   

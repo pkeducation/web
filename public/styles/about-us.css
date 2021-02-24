@@ -4,7 +4,6 @@
     margin: 100px 0px 50px 0px;
 }
 
-
 .logo{
   border-radius: 10px;
   width: 102px;
@@ -51,9 +50,4 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   margin-bottom: -1px;
-}
-
-.btn:hover{
-  color: #fcff7a;
-  background-color:#1d649a;
 }
