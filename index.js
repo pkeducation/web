@@ -49,11 +49,11 @@ app.post("/about_us", function(req, res){
               LNAME: subscribingUser.lastName
           }
       });
-      res.sendFile(__dirname + "/success.html");
+      res.send("<h1> Successfully subscribed </h1>");
       console.log(`Successfully added contact as an audience member. The contact's id is ${response.id}.`);
   }
 
-  run().catch(e => res.sendFile(__dirname + "/failure.html"));
+  run().catch(e => res.send("<h1>Could not subscribe, please contat admin</h1>"));
 
 });
 
