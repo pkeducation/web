@@ -23,7 +23,7 @@ app.get("/about_us", function(req, res){
 });
 
 mailchimp.setConfig({
-  apiKey: "c45c4d11c47d6143ef3495231fde6998-us1",
+  apiKey: "e180a59ebcf61a51c964a0e2edd5e3d5-us1",
   server: "us1"
  });
 
