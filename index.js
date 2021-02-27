@@ -5,7 +5,6 @@ const request = require("request");
 const https = require("https");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
-
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
@@ -23,7 +22,7 @@ app.get("/about_us", function(req, res){
 });
 
 mailchimp.setConfig({
-  apiKey: "e180a59ebcf61a51c964a0e2edd5e3d5-us1",
+  apiKey: process.env.MAILCHIMP_API_KEY,
   server: "us1"
  });
 
