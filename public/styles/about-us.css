@@ -51,3 +51,7 @@
   border-top-right-radius: 0;
   margin-bottom: -1px;
 }
+
+.zoom:hover{
+  transform: scale(1.5);
+}

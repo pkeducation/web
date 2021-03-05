@@ -159,6 +159,10 @@ body{
   color: #fcff7a;
   font-size: 0.9rem;
 }
+
+.zoom:hover{
+  transform: scale(1.5);
+}
   
 
 /* Extra large devices (large desktops, 1200px and up) */
