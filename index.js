@@ -48,11 +48,12 @@ app.post("/about_us", function(req, res){
               LNAME: subscribingUser.lastName
           }
       });
-      res.send("<h1> Successfully subscribed </h1>");
+      //res.send("<h1> Successfully subscribed </h1>");
+      $(".modal-title").text("Congratulations!! You've successfully subscribed")
       console.log(`Successfully added contact as an audience member. The contact's id is ${response.id}.`);
   }
 
-  run().catch(e => res.send("<h1>Could not subscribe, please contat admin</h1>"));
+  run().catch(e => $(".modal-til").text("Oh Oh! Failed to subscribe"));
 
 });
 

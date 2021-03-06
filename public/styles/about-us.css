@@ -55,3 +55,7 @@
 .zoom:hover{
   transform: scale(1.5);
 }
+
+.modal-title{
+  color:  #1d649a;
+}
