@@ -1,13 +1,33 @@
+//jsjint esversion:6
+var jsdom = require('jsdom');
+const { JSDOM } = jsdom;
+const { window } = new JSDOM();
+const { document } = (new JSDOM('')).window;
+global.document = document;
 
-    $(function() {
+var $ = jQuery = require('jquery')(window);
+
+console.log(module);
+
+    function check_subscribe() {
         $("#submit-button").click(function() {
             if($(".top").val() !="" && $(".middle").val() !=""  && $(".bottom").val() !="") {
               $('#signup').modal('show');
               $(this).closest("form").submit(); 
             }
         });
-     });
+     }
 
-//API Key: c45c4d11c47d6143ef3495231fde6998-us1
-//API Key: c45c4d11c47d6143ef3495231fde6998-us1
-//audience/list id: c2935e5e99
+    module.exports = {
+      failure_modal, success_modal, check_subscribe
+    }
+
+     function success_modal(){
+      $(".modal-title").text("Congratulations!! You've successfully subscribed")
+     }
+
+     function failure_modal(){
+      $(".modal-title").text("Oh Oh! Failed to subscribe")
+     }
+
+     check_subscribe();
