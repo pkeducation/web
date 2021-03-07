@@ -9,8 +9,16 @@
 
 body{
   background-color: #41c3be;
-  font-family: 'Josephin Sans', sans-serif;
   color: #fff
+}
+
+.nav-link{
+  color:#fcff7a;
+}
+
+.nav-link:hover{
+  color:#ffeb00;
+  transform: scale(1.1);
 }
 
 #top-section, #footer{
