@@ -30,8 +30,6 @@ $(".whyUs-link").click(function() {
   }, 2000);
 });
 
-
-
 /* adding back to top button */
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
