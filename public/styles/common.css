@@ -17,7 +17,6 @@
   
   .nav-link:hover{
     color:#ffeb00;
-    transform: scale(1.1);
   }
   
   .nav-item{
@@ -96,14 +95,10 @@
     bottom: 10px;
     font-size: 90%;
   }
-  
 
   
   /* Extra large devices (large desktops, 1200px and up) */
-  @media (max-width: 1360px) {
-  
-
-  }
+  @media (max-width: 1360px) { }
   
   /* Large devices (desktops, 992px and up) */
   @media (max-width: 992px) { 
