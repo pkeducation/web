@@ -4,10 +4,7 @@ const { JSDOM } = jsdom;
 const { window } = new JSDOM();
 const { document } = (new JSDOM('')).window;
 global.document = document;
-
 var $ = jQuery = require('jquery')(window);
-
-console.log(module);
 
     function check_subscribe() {
         $("#submit-button").click(function() {
@@ -24,10 +21,12 @@ console.log(module);
 
      function success_modal(){
       $(".modal-title").text("Congratulations!! You've successfully subscribed")
+      return
      }
 
      function failure_modal(){
-      $(".modal-title").text("Oh Oh! Failed to subscribe")
+
+      return;
      }
 
      check_subscribe();

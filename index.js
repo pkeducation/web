@@ -3,7 +3,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
+const http = require("http");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
+const { on } = require("events");
 const app = express();
 const about_us = require(__dirname + "/public/scripts/about_us.js")
 
@@ -22,13 +24,12 @@ app.get("/about_us", function(req, res){
   res.sendFile(__dirname + "/public/html/about_us.html");
 });
 
+app.get("/about_us/failure", function(req, res){
+  res.sendFile(__dirname + "/public/html/subscribe_response.html");
+});
 mailchimp.setConfig({
   apiKey: process.env.MAILCHIMP_API_KEY,
   server: "us1"
- });
-
- app.get("/about_us", function(req, res){
-  about_us.check_subscribe();
  });
 
 app.post("/about_us", function(req, res){
@@ -60,7 +61,12 @@ app.post("/about_us", function(req, res){
   }
 
   //run().catch(e => res.send("<h1>Could not subscribe, please contat admin</h1>"));
-  run().catch(e => about_us.success_modal());
+  run().catch(function(err){
+    console.log(err.status);
+    //rendering an entire html for failed response is overkill
+    //fix this using bootstrap modal
+    res.sendFile(__dirname + "/public/html/subscribe_failed.html");
+  });
 });
 
 app.listen(process.env.PORT ||3000, function(){
