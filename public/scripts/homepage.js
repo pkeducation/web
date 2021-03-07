@@ -30,11 +30,7 @@ $(".whyUs-link").click(function() {
   }, 2000);
 });
 
-$(".contactUs-link").click(function() {
-  $('html, body').animate({
-      scrollTop: $("#contactUs").offset().top
-  }, 2000);
-});
+
 
 /* adding back to top button */
 function scrollFunction() {
