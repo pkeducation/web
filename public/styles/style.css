@@ -20,9 +20,17 @@ body{
   display: inline-block;
 }
 
-#top-section, #contactUs{
+#top-section, #footer{
   background-color: #1d649a;
 }
+
+#footer {
+  height: 180px;
+  bottom: 0;
+  width: 100%;
+  color: #fcff7a;
+}
+
 
 .header{
   margin-top: 20px;
