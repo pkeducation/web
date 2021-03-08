@@ -54,9 +54,7 @@ app.post("/about_us", function(req, res){
               LNAME: subscribingUser.lastName
           }
       });
-      //res.send("<h1> Successfully subscribed </h1>");
-      //() => $(".modal-title").text("Congratulations!! You've successfully subscribed")
-      about_us.success_modal();
+      res.sendFile(__dirname + "/public/html/subscribe_success.html");
       console.log(`Successfully added contact as an audience member. The contact's id is ${response.id}.`);
   }
 
