@@ -33,11 +33,12 @@
   font-size: 16px;
 }
 
-.form-signin .form-control::placeholder {
-  color:  #1d649a;
-  opacity: 0.75; /* Firefox */
+.form-signin .form-control {
+  color: #1d649a;
 }
+
 .form-signin .form-control:focus {
+  color:#1d649a;
   z-index: 2;
   border-color: #fcff7a;
   box-shadow: 0 0 0 0.2rem  #fcff7a;
@@ -59,6 +60,16 @@
   margin-bottom: -1px;
 }
 
-.modal-title{
-  color:  #1d649a;
+#submit-button{
+  color: #fcff7a;
+  background-color:#1d649a;
 }
+
+#submit-button:hover{
+  background-color:   #3c94d6;
+  border-color:  #3c94d6;
+  color: #fcff7a;
+}
+
+
+
