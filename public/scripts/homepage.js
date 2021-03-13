@@ -12,27 +12,3 @@ $(window).scroll(function() {
       $('.to-right').stop().animate({ left: '2%' },1000);
   } 
 });
-
-
-var featuresSection = "#features";
-if(detectMob()){
-  featuresSection +="2";
-}
-
-$(".pricing-link").click(function() {
-  $('html, body').animate({
-      scrollTop: $("#pricing").offset().top
-  }, 2000);
-});
-
-$(".whyUs-link").click(function() {
-  $('html, body').animate({
-      scrollTop: $(featuresSection).offset().top
-  }, 2000);
-});
-
-$(".contactUs-link").on('click', function() {
-  $('html, body').animate({
-      scrollTop: $("#contactUs").offset().top
-  }, 2000);
-});

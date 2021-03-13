@@ -22,3 +22,21 @@ function scrollFunction() {
   $("#toTopBtn").on('click', function(){
     $("html, body").animate({scrollTop: $("#top").offset().top}, 500);
   })
+
+  
+var featuresSection = "#features";
+if(detectMob()){
+  featuresSection +="2";
+}
+
+$(".pricing-link").on('click', function() {
+  $('html, body').animate({
+      scrollTop: $("#pricing").offset().top
+  }, 2000);
+});
+
+$(".whyUs-link").on('click', function() {
+  $('html, body').animate({
+      scrollTop: $(featuresSection).offset().top
+  }, 2000);
+});
