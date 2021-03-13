@@ -24,9 +24,8 @@ function scrollFunction() {
   })
 
   
-var featuresSection = "#features";
 if(detectMob()){
-  featuresSection +="2";
+  $('.navbar-collapse').find('.whyUs-link > a').attr('href', '/#features2')
 }
 
 $(".pricing-link").on('click', function() {
@@ -37,6 +36,6 @@ $(".pricing-link").on('click', function() {
 
 $(".whyUs-link").on('click', function() {
   $('html, body').animate({
-      scrollTop: $(featuresSection).offset().top
+      scrollTop: $("#features").offset().top
   }, 2000);
 });
