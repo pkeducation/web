@@ -13,6 +13,13 @@
 
     <title>P.K. Education Centre</title>
     <link rel="icon" href="../data/favicon.ico">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="../scripts/contact.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_sdC132IUKUbN0lYnaH4l2");
+        })();
+    </script>
   </head>
   
   <body>
@@ -56,7 +63,7 @@
         <div class="row">
             <div class="col-xl-8 offset-xl-2 py-5">
                 <h3>Student's Details</h4>
-                <form id="contact-form" method="post" action="../scripts/contact.php" role="form" validate>
+                <form id="contact-form" role="form" validate>
                         <div class="messages"></div>
                         <div class="controls">
                     
@@ -64,149 +71,40 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="formFirstName">First Name * </label>
-                                        <input id="formFirstName" type="text" name="studentName" class="form-control" placeholder="First Name" required="true" data-error="Firstname is required.">
+                                        <input id="FName" type="text" name="studentName" class="form-control" placeholder="First Name" required="true" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="formLastName">Last Name * </label>
-                                        <input id="formLastName" type="text" name="studentSurname" class="form-control" placeholder="Last Name" required="true" data-error="Firstname is required.">
+                                        <input id="LName" type="text" name="studentSurname" class="form-control" placeholder="Last Name" required="true" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_address1">Address Line 1 * </label>
-                                        <input id="formAddress1" type="text" name="addressLine1" class="form-control" placeholder="Apartment Name/Number, Floor,  locality name" required="required" data-error="Address field 1 is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="formAddress2">Address Line 2 * </label>
-                                        <input id="form_address2" type="text" name="addressLine2" class="form-control" placeholder="Street Name" required="required" data-error="Address field 1 is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="formCity">City </label>
-                                        <input id="formCity" type="text" name="city" class="form-control" placeholder="Kolkata"  disabled>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="formState">State </label>
-                                        <input id="formState" type="text" name="state" class="form-control" placeholder="West Bengal"  disabled>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="formPostalCode">Pin Code * </label>
-                                        <input id="formPostalCode" type="text" name="postalCode" class="form-control" placeholder="7xxxxx" required data-error="Pincode is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label for="formEmail">Email ID *</label>
-                                        <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required data-error="Valid email id is required.">
+                                        <input id="SEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" required data-error="Valid email id is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-    
-                                <div class="col-md-4">
-                                    <label for="formMobileNum">Mobile Number</label>
-                                    <div class="input-group mb-3 input-group-md">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">+91</span>
-                                          </div>
-                                        <input id="formMobileNum" type="tel" name="mobileNumber" class="form-control" placeholder="9012345678" required data="+91">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-4">
-                                    <label for="formMobileNum">Landline Number</label>
-                                    <div class="input-group mb-3 input-group-md">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">033</span>
-                                          </div>
-                                        <input id="formLandlineNum" type="tel" name="email" class="form-control" placeholder="" data="+91", >
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                    
                             </div>
-                        </br>
-                            <h3>Parent's Details (Mother/Father)</h4>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="formFirstName">First Name </label>
-                                            <input id="formFirstName" type="text" name="name" class="form-control" placeholder="First Name" required data-error="Parent's firstname is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="formLastName">Last Name</label>
-                                            <input id="formLastName" type="text" name="name" class="form-control" placeholder="Last Name" required data-error="Parent's last name is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="formEmail">Email ID </label>
-                                            <input id="formEmail" type="email" name="email" class="form-control" placeholder="john.doe@example.com" data-error="">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-md-6">
-                                        <label for="formParentMobileNum">Mobile Number *</label>
-                                        <div class="form-group input-group mb-3 input-group-md">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text">+91</span>
-                                                <input id="formParentMobileNum" type="tel" name="parentMobileNumber" class="form-control" placeholder="9012345678" required data-error="parent's mobile number is required." >
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-        
-                                </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <!-- <div class="form-group">
-                                        <label for="form_message">Message *</label>
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div> -->
-                                </div>
-                                
+
+                            <div class="row">                               
                                 <div class="col-md-3">
-                                    <button class="btn btn-success btn-lg" type="button" name="submit">Submit</button>
+                                    <button class="btn btn-success btn-lg" onclick="sendMail()">Submit</button>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <p class="text-muted">
-                                        <strong>*</strong> These fields are required.
+                                        <strong>*</strong> These fields are required. 
+                                    </p>
                                 </div>
                             </div>
                         </div> 
@@ -256,7 +154,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
-    <script src="../scripts/contact.js"></script>
+
     <script src="../scripts/common.js"></script>
 
 </body>
