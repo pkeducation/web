@@ -23,6 +23,7 @@
 
 /* control form input focus color (glow) */
 .form-control:focus {
+  color: #1d649a;
   border-color: #fcff7a;
   box-shadow: 0 0 0 0.2rem  #fcff7a;
 }
@@ -48,6 +49,11 @@
   font-weight: bold;
   font-size: 0.9rem;
   opacity: 0.75;
+}
+
+#subject{
+  height: 100px;
+  width: 70%;
 }
 
 .btn{
