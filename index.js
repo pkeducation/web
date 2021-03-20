@@ -24,6 +24,10 @@ app.get("/about_us", function(req, res){
   res.sendFile(__dirname + "/public/html/about_us.html");
 });
 
+app.get("/terms-condition", function(req, res){
+  res.sendFile(__dirname + "/public/html/terms-conditions.html");
+});
+
 app.get("/about_us/failure", function(req, res){
   res.sendFile(__dirname + "/public/html/subscribe_response.html");
 });
