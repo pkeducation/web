@@ -1,7 +1,9 @@
   /* form functionality */
 
 function sendMail(){
-    event.preventDefault();
+    if(document.getElementById("contact-form").checkValidity()){
+        event.preventDefault();
+        alert("alert");
     console.log("from send mail func");
     var tempParams = {
         studentName: document.getElementById("FName").value,
@@ -12,10 +14,11 @@ function sendMail(){
         Subject: document.getElementById("SSubject").value,
         Message: document.getElementById("Message").value
     };
-     emailjs.send('service_wwrp9hk', 'template_or7i0i9', tempParams)
+    emailjs.send('service_wwrp9hk', 'template_or7i0i9', tempParams)
     .then(function(res){
-        console.log("success", res.status);
-        document.getElementById("contact-form").reset();
+    console.log("success", res.status);
+    document.getElementById("contact-form").reset();
     });
+}
 }
 
