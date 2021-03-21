@@ -1,20 +1,14 @@
 @import url("common.css");
 
 #terms-conditions{
-    margin: 240px 0px 240px 0px;
+    margin-top: 10px;
     font-size: 1.2rem;
     color: #fcff7a;
 }
 
-
-
-#submit-button{
-  color: #fcff7a;
-  background-color:#1d649a;
-}
-
-#submit-button:hover{
-  background-color:   #3c94d6;
-  border-color:  #3c94d6;
-  color: #fcff7a;
+.terms-list{
+  font-weight: bold;
+  color:#1d649a;
+  padding: 10px 10px 10px 10px;
+  margin: 30px 4px 30px 12px;
 }
