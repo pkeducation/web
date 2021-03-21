@@ -62,7 +62,7 @@
     <div class="container form-subsection student-details">
         <div class="row">
             <div class="col-xl-8 offset-xl-2 py-5">
-                <h3>Details</h4>
+                <h3>Details</h3>
                 <form id="contact-form" role="form" validate>
                         <div class="messages"></div>
                         <div class="controls">
@@ -70,7 +70,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="FName" type="text" name="studentName" class="form-control" placeholder="Student's Name *" required="true" data-error="Firstname is required.">
+                                        <input id="Name" type="text" name="Name" class="form-control" placeholder="Student/Parent Name *" required="true" data-error="Contact name is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -79,13 +79,13 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input id="SEmail" type="email" name="studentEmail" class="form-control" placeholder="Email Address *" required data-error="Valid email id is required.">
+                                        <input id="Email" type="email" name="Email" class="form-control" placeholder="Email Address (Student/Parent)">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input id="SPhone" type="phone" name="studentPhone" class="form-control" placeholder="Phone Number">
+                                        <input id="Phone" type="phone" name="Phone" class="form-control" placeholder="Phone Number (Student/Parent) *" required="true" data-error="Please provide your contact number">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -93,13 +93,13 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="PName" type="text" name="parentName" class="form-control" placeholder="Parent Name (mother/father/guardian) *" required data-error="Parent name is required.">
+                                        <input id="OtherName" type="text" name="OtherName" class="form-control" placeholder="Other (contact) name">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="PPhone" type="phone" name="parentPhone" class="form-control" placeholder="Parent Phone Number *" required="true" data-error="Parent phone number is required.">
+                                        <input id="OtherPhone" type="phone" name="OtherPhone" class="form-control" placeholder="Other (mobile) number">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -107,7 +107,15 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="SSubject" type="text" name="Subject" class="form-control" placeholder="Interested Subjects *" data-error="Firstname is required.">
+                                        <input id="Subject" type="text" name="Subject" class="form-control" placeholder="Interested Subjects *" required="true" data-error="Please specify what you would like to study.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="ClassSchool" type="text" name="ClassSchool" class="form-control" placeholder="Current class, school">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
