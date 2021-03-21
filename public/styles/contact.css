@@ -65,6 +65,10 @@
   color: #fcff7a;
 }
 
+.form-check{
+  height: 10px;
+}
+
 .btn{
   width: 140px;
   margin-top: 15px;
