@@ -56,6 +56,15 @@
   width: 70%;
 }
 
+
+.terms-conditions-link{
+  color: #1d649a;
+}
+
+.terms-conditions-link:hover{
+  color: #fcff7a;
+}
+
 .btn{
   width: 140px;
   margin-top: 15px;
