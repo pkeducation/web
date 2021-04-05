@@ -196,6 +196,10 @@
   margin-bottom: 20px;
 }
 
+.testimonial-mother{
+  font-size: 20px;
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1360px) {
 
