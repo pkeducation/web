@@ -3,14 +3,14 @@
 #description-title{
   padding: 30px 0px 0px 0px;
   color: #fcff7a;
-  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #description{
   margin: 20px 0 0 0 ;
   padding: 30px 20px 0 20px;
   font-size: 20px;
-  color: #1d649a;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,7 +34,7 @@
   width: 100%;
   max-width: 330px;
   padding: 15px;
-  margin: 0 auto 220px auto;
+  margin: 0 auto 10vh auto;
   color: #fcff7a;
 }
 
@@ -44,9 +44,6 @@
   height: auto;
   padding: 10px;
   font-size: 16px;
-}
-
-.form-signin .form-control {
   color: #1d649a;
 }
 
@@ -83,6 +80,3 @@
   border-color:  #3c94d6;
   color: #fcff7a;
 }
-
-
-
