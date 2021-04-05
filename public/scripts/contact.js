@@ -3,7 +3,6 @@
 function sendMail(){
     if(document.getElementById("contact-form").checkValidity()){
         event.preventDefault();
-        alert("alert");
     console.log("from send mail func");
     var tempParams = {
         Name: document.getElementById("Name").value,
