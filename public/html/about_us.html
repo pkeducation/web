@@ -52,38 +52,42 @@
                 </li>
             </ul>
         </div>
-
     </nav>
 
 
     <section>
-      <div id="description-title" class="container-fluid row justify-content-center">
-          <h2>A little bit about us</h2>
-          <div  id="description" class="container-fluid row justify-content-center">
-            PK Education Center was started in 2015 by Priya Khemka. The motivation to start this education centre 
-            was due to immense love for teaching and to help out children who were very enthusiastic about learning 
-            but need proper guidance. 
-  
-            This education center is unique that it allows the student to find their strengths among different learning 
-            techniques. We provide them with a more customized approach to learning for each individual student. 
+      <div class="container">
+        <div class="row">
+          <div id="description-title" class="container-fluid row justify-content-center">
+            <h2>A little bit about us</h2>
+            <div  id="description">
+              In 2007, Priya Khemka,founder and teacher of P.K.Education Centrestarted teaching students as her hobby. 
+              After completing CMA in 2017 and realising her passion for teaching, she decided to convert her hobby into 
+              her profession and thus, P.K. Education Centre was established. The motivation to start this education centre
+              was immense love for teaching and to help out children who are very enthusiastic about learning but need
+              proper guidance. It is unique as it allows students to find their strengths through/vis-a-vis different
+              learning techniques.
+            </div>
+            <div id="description">
+              P.K.Education Centre has its primary focus as academics, however, to improve overall cognitive and social
+              skills of students and keeping well-being of a student's mental health on a high priority, it conducts
+              multi-range spectrum of activities on special occasions like Children’s Day or Teachers’ Day. It also
+              conducts various workshops for their skill developments. All students come together, spend quality
+              time with each other and get involved in recreational activities that are fun and interactive.
+            </div>
           </div>
-          <div  id="description" class="container-fluid row justify-content-center">
-            PK Education has it's primary focus as academics, however, to improve overall cognitive, social skills and keeping 
-            well-being of a student's mental health on a high priority, PK Education conducts multi-range spectrum of activies on 
-            special occations like Childrens Day or Teacher Day. All students come together, spending quality time with each 
-            and being involved in activies that are reacreational, fun and interactive. 
-          </div>
+        </div>
       </div>
     </section>
 
-    <form class="form-signin" action="/about_us" method="post">
-      <input id="fn" type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus>
-      <input id="fn" type="text" name="lastName" class="form-control middle" placeholder="Last Name" required autofocus>
-      <input id="fn" type="email" name="email" class="form-control bottom" placeholder="Email address" required autofocus>
-      
-      <button id="submit-button" class="btn btn-lg btn-primary btn-block" data-toggle="modal" data-target="#subscribeModal" type="submit" name="submit">Subscribe</button>
-
-    </form>
+    <section id="sign-up-form">
+      <form class="form-signin" action="/about_us" method="post">
+        <input id="fn" type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus>
+        <input id="fn" type="text" name="lastName" class="form-control middle" placeholder="Last Name" required autofocus>
+        <input id="fn" type="email" name="email" class="form-control bottom" placeholder="Email address" required autofocus>
+        <button id="submit-button" class="btn btn-lg btn-primary btn-block" data-toggle="modal" data-target="#subscribeModal" type="submit" name="submit">Subscribe</button>
+      </form>
+    </section>
 
     <section  id="footer">
       <div class="container-fluid row">
